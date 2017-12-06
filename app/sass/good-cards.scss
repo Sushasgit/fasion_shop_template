@@ -1,22 +1,50 @@
 .goods-offers{
   display: flex;
   justify-content: space-around;
-  width: 40%;
+  width: 44%;
+  align-items: flex-start;
+
+
+  &__card{
+    background-color: #ffffff;
+  }
+
   &__card--small{
     width:50%;
+    margin-right: 10px;
   }
+
   &__container-price{
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   &__btn{
+    width: 103px;
+    height: 26px;
     font-family:$link-font;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
+    background-color: #c73935;
+    border-color: #c73935;
+    color:#ffffff;
   }
-  &__img{
-    width: 100%;
+
+  &__description{
+    color: #565555;
+    font-family:$link-font;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17px;
   }
+  &__price{
+    color: #3e3f3f;
+    font-family: $link-font;
+    font-size: 24px;
+
+  }
+
+
 }
